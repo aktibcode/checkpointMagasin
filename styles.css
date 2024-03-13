@@ -9,8 +9,9 @@ body {
 
 header {
     margin-top: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid rgb(208, 195, 195);
+    border-bottom: 1px solid rgb(208, 201, 201);
+
 }
 
 header .container {
@@ -47,6 +48,12 @@ header .container {
     text-decoration: none;
     font-family: arial;
     text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 5px;
+    /* padding: 5px; */
+
 }
 
 .main_nav ul li a:hover {
