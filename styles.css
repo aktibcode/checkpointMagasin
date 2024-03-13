@@ -63,3 +63,19 @@ header .container {
     transition: 0.1s;
 
 }
+
+
+.left-image {
+    background-image: url(img/produits/left-banner-image.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.left-image .inner-content {
+    width: 100%;
+}
+
+.inner-content h4 {
+    text-align: center;
+    margin-top: 30px;
+}
