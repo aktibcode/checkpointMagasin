@@ -253,7 +253,7 @@ footer p a {
 .toggle {
     display: block;
     text-align: end;
-    background-color: rgb(59, 57, 57);
+    background-color: rgb(63, 62, 62);
 
 }
 
@@ -279,4 +279,10 @@ footer p a {
         margin: 2px;
     }
 
+    .produits {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 0 1px;
+        align-items: start;
+    }
 }
